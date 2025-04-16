@@ -1,0 +1,26 @@
+# Compiled files
+/target/
+
+# Executables
+*.exe
+*.so
+*.dylib
+*.dll
+
+# Backup and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# IDEs and editors
+.idea/
+.vscode/
+*.code-workspace
+
+# By Cargo
+Cargo.lock
+
+# Node or web stuff (if using with frontend)
+node_modules/
+dist/
