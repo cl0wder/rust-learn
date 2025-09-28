@@ -1,0 +1,41 @@
+# Rust specific ignores
+/target/
+**/target/
+**/*.rs.bk
+*.pdb
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Debug files
+**/*.rs.bk
+**/*.pdb
+
+# Generated documentation
+**/doc/
+**/target/doc/
+
+# Environment files
+.env
+.env.local
+**/.env
+**/.env.local
+
+# Cargo specific
+Cargo.lock
+**/Cargo.lock
+!Cargo.lock  # Uncomment this line if you want to track the root Cargo.lock
+
+# Binary files
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+
+# Backup files
+**/*~
+**/*.bak
